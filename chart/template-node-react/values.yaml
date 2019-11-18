@@ -23,9 +23,12 @@ service:
 ingress:
   enabled: true
   appid:
-    enabled: false
+    enabled: true
     # web or app - https://cloud.ibm.com/docs/services/appid?topic=appid-kube-auth
     requestType: web
+    binding:
+      name: binding-mooc-one-rhos-appid
+      namespace: devb
 
 #  host: hello
   namespaceInHost: true
