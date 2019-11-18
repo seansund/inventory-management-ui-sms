@@ -28,7 +28,7 @@ ingress:
     requestType: web
     binding:
       name: binding-mooc-one-rhos-appid
-      namespace: devb
+      namespace: dev
 
 #  host: hello
   namespaceInHost: true
